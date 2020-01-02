@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>目青.2018</title>
+<style type="text/css">
+.wrapper {
+	font-family: "微軟正黑體 Light";
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	height: 0px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.header {
+	height: 550px;
+	background-color: #696969;
+	background-repeat: no-repeat;
+	border-left-width: 5px;
+	text-shadow: 0px 0px 0px;
+	background-position: 30% 50%;
+}
+#ac {
+	position: absolute;
+	left: 871px;
+	top: 43px;
+	width: 111px;
+	font-weight: bolder;
+	font-size: 500%;
+	color: rgba(255,255,255,1.00);
+}
+#ad {
+	position: absolute;
+	left: 955px;
+	top: 97px;
+	font-size: 500%;
+	font-style: normal;
+	font-weight: bolder;
+	width: 153px;
+	height: 449px;
+	color: rgba(255,255,255,1);
+}
+#close {
+	position: absolute;
+	left: 447px;
+	top: 456px;
+	font-size: xx-large;
+	background-color: rgba(255,255,255,0.74);
+	width: 255px;
+}
+#open {
+	position: absolute;
+	text-shadow: 0px 0px hsla(0,0%,100%,0.27);
+	left: 166px;
+	top: 90px;
+	background-color: hsla(0,0%,32%,0.62);
+	width: 186px;
+}
+.pic {
+	position: absolute;
+	background-color: hsla(0,0%,100%,0.31);
+	left: 663px;
+	width: 642px;
+	height: 95px;
+	top: 152px;
+	color: hsla(0,0%,32%,1);
+	font-size: 18px;
+	text-align: center;
+}
+.pic3 {
+	position: absolute;
+	background-color: hsla(0,0%,100%,0.34);
+	left: 505px;
+	width: 277px;
+	height: 42px;
+	top: 47px;
+	font-size: xx-large;
+}
+.pic2 {
+	position: absolute;
+	background-color: hsla(0,0%,100%,0.27);
+	left: 221px;
+	width: 16px;
+	height: 381px;
+	top: 42px;
+}
+.nav {
+	background-color: #969696;
+	height: 480px;
+	float: left;
+	width: 269px;
+	position: absolute;
+	left: 185px;
+	top: 579px;
+}
+.nav ul li {
+	width: 100px;
+	display: block;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	list-style-type: none;
+	border-top: 5px inset #FFFFFF;
+	color: #454545;
+	font-weight: bolder;
+	font-size: large;
+	text-decoration: none;
+}
+.nav img {
+	position: absolute;
+	left: 33px;
+	top: 399px;
+	height: 48px;
+	width: 151px;
+}
+.main {
+	background-color: #333333;
+	height: 500px;
+	float: right;
+	width: 70%;
+}
+.main img {
+	position: absolute;
+	left: 907px;
+	top: 745px;
+	height: 273px;
+	width: 621px;
+}
+.footer {
+	background-color: #C7C7C7;
+	height: 25px;
+	float: none;
+	clear: both;
+}
+.a {
+	position: absolute;
+	left: 941px;
+	top: 790px;
+	background-color: hsla(0,0%,100%,0.60);
+	font-size: 24px;
+	color: hsla(0,0%,32%,1);
+	width: 110px;
+	text-align: center;
+	height: 180px;
+}
+.b {
+	width: 110px;
+	position: absolute;
+	color: hsla(0,0%,32%,1.00);
+	text-align: center;
+	background-color: hsla(0,0%,100%,0.60);
+	left: 1093px;
+	top: 790px;
+	font-size: 24px;
+	height: 180px;
+}
+.c {
+	width: 110px;
+	position: absolute;
+	color: hsla(0,0%,32%,1.00);
+	text-align: center;
+	background-color: hsla(0,0%,100%,0.60);
+	left: 1239px;
+	top: 790px;
+	font-size: 24px;
+	height: 180px;
+}
+.d {
+	background-color: hsla(0,0%,100%,0.60);
+	text-align: center;
+	color: hsla(0,0%,32%,1.00);
+	position: absolute;
+	width: 110px;
+	left: 1387px;
+	top: 790px;
+	font-size: 24px;
+	height: 180px;
+}
+a:link {
+	color: hsla(0,0%,32%,1);
+}
+.e {
+	position: absolute;
+	left: 907px;
+	top: 592px;
+	color: hsla(0,0%,100%,0.60);
+}
+.header img {
+	position: absolute;
+	left: 365px;
+	width: 280px;
+	top: 117px;
+	height: 268px;
+}
+.f {
+	position: absolute;
+	left: -266px;
+	top: 252px;
+	color: hsla(0,0%,32%,1.00);
+	font-size: 18px;
+	background-color: hsla(0,0%,100%,0.34);
+	width: 292px;
+	text-align: center;
+}
+.pic img {
+}
+</style>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
+function MM_DW_effectHighlight(obj,method,effect,color,speed)
+{
+    obj[method](effect, {color:color}, speed);
+}
+
+function MM_DW_effectFade(obj,method,effect,speed)
+{
+    obj[method](effect, {}, speed);
+}
+</script>
+</head>
+<body text="#5D5D5D" vlink="#FFFFFF">
+<div class="wrapper">
+  <div class="header"><img src="image/7.png" width="833" height="843" alt=""/>
+    <div class="pic">
+      <div class="f">一座安穩的港  航線藏進手紋 </div>
+      <p><img src="image/1449 (2).png" width="771" height="784" alt=""/>輕風和陽一起拍下合照</p>
+      <p>說著溫柔、寫著美好
+        分不清是搬進夢裡還是回到現況，這一切都藏在回憶</p>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="pic2"></div>
+	  <ul>
+	  <li><a href="index2.html">#攝癮詩</a></li>
+	  <li><a href="index3.html">青拾光計畫</a></li>
+	  <li><a href="index4.html">更多目青</a></li>
+	  <li><a href="index.html">回首頁</a></li>
+    </ul>
+  <img src="image/16.png" width="277" height="84" alt=""/>
+  </div>
+<div class="main">
+  <img src="image/17.png" width="1500" height="483" alt=""/>
+</div>
+  <div class="footer">©Votando en 2020</div>
+</div>
+<div class="a">
+  <p>&nbsp;</p>
+  <p><a href="index2-1.html">2016</a></p>
+</div>
+<div class="b">
+  <p>&nbsp;</p>
+  <p><a href="index2-2.html">2017</a></p>
+</div>
+<div class="c">
+  <p>&nbsp;</p>
+  <p><a href="index2-3.html">2018</a></p>
+</div>
+<div class="d">
+  <p>&nbsp;</p>
+  <p><a href="index2-4.html">2019</a></p>
+</div>
+<div class="e" style="font-family: '微軟正黑體'; font-size: larger;">
+  <p>攝影師是職業，「<strong>攝・癮・詩</strong>」同時具有意義<br>
+    <br>
+  一段像是心情日記的文字搭配照片</p>
+  <p>可能是心情的投射，也可能是把影像比擬成一些他人較無法揣摩的感受<br>
+</p>
+</div>
+</body>
+</html>
